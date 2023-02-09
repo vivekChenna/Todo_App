@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  /* border: 2px solid red; */
+  justify-content: space-evenly;
+  background-color: rgb(193, 255, 255);
+}
+
+.todo-logo > a > img {
+  width: 80px;
+  height: 75px;
+}
+.navbar-list {
+  display: flex;
+  /* border: 2px solid gray; */
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-list > ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid red; */
+}
+.navbar-list > ul > li {
+  list-style: none;
+  padding: 0px 30px;
+  /* border: 2px solid green; */
+}
+
+.navbar-list > ul > li > a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding-top: 1rem;
+}
+
+.container > h1 {
+  font-size: 4.3rem;
+}
+
+.Todo-item {
+  border: 1px solid rgb(250, 195, 195);
+  width: 50%;
+  height: 9rem;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding-bottom: 10px;
+  box-shadow: 1px 1px rgb(167, 164, 164);
+}
+
+.delete-btn > button {
+  background-color: red;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  border-radius: 4px;
+  width: 4.5rem;
+  height: 1.7rem;
+  border: none;
+}
+
+.AddTodo-div {
+  margin: auto;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5rem;
+}
+
+.input {
+  width: 30rem;
+  text-align: center;
+  font-size: 16px;
+  box-shadow: 1px 1px rgb(167, 164, 164);
+  border: 1px solid rgb(250, 195, 195);
+  outline: none;
+  height: 40px;
+}
+
+.input-div {
+  margin-bottom: 20px;
+}
+
+.AddTodo-div > form > button {
+  background-color: rgb(31, 184, 31);
+  color: white;
+  text-align: center;
+  font-size: 17px;
+  border-radius: 4px;
+  width: 5rem;
+  height: 2rem;
+  border: none;
+}
+
+.AddTodo-div > form {
+  margin-top: 15px;
+}
